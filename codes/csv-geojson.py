@@ -4,7 +4,7 @@ from shapely.geometry import Point
 
 # === 1. Load CSV ===
 # Replace with your actual CSV file path
-csv_file = 'your_file.csv'  # <-- PLACEHOLDER
+csv_file = 'data/NDVI_Points_Tamale.csv'  # <-- PLACEHOLDER
 
 # Read the CSV file into a DataFrame
 df = pd.read_csv(csv_file)
